@@ -1,0 +1,11 @@
+2016-10-30 21:47:26,845 [Thread-2:21268] [blog.views:10] [views:index] [ERROR]- integer division or modulo by zero
+2016-10-30 21:48:05,494 [Thread-8:18952] [blog.views:10] [views:index] [ERROR]- integer division or modulo by zero
+2016-10-30 21:48:31,221 [Thread-2:22416] [blog.views:10] [views:index] [ERROR]- integer division or modulo by zero
+2016-10-30 21:48:39,006 [Thread-3:18908] [blog.views:10] [views:index] [ERROR]- integer division or modulo by zero
+2016-10-30 21:58:40,474 [Thread-2:18656] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
+2016-10-30 21:58:44,042 [Thread-2:12020] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
+2016-10-30 21:58:59,118 [Thread-8:19976] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
+2016-10-30 21:59:21,440 [Thread-2:20160] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
+2016-10-30 21:59:38,183 [Thread-6:17580] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
+2016-10-30 21:59:53,230 [Thread-9:21864] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
+2016-10-31 23:16:26,176 [Thread-2:18672] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
