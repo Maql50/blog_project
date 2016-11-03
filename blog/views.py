@@ -57,9 +57,10 @@ def archive(request):
 def article(request):
     id = request.GET.get('id')
     try:
-        Article.objects.get(pk=id)
+        article = Article.objects.get(pk=id)
     except Article.DoesNotExist:
         return render(request, 'failure.html', {'reason': '没有找到对应的文章'})
+    return render(request, 'article.html', locals())
 
 def getPage(request, article_list, page_size):
     pageinator = Paginator(article_list, page_size)

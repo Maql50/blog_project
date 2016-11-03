@@ -1218,3 +1218,55 @@ TypeError: render() takes at least 2 arguments (1 given)
 2016-11-03 18:18:26,852 [Thread-19:10288] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/a1.jpg
 2016-11-03 18:18:26,920 [Thread-20:3752] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.js.map
 2016-11-03 18:18:51,150 [Thread-27:10248] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.js.map
+2016-11-03 18:46:20,127 [Thread-3:6696] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.js.map
+2016-11-03 19:01:08,036 [Thread-4:4436] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 151, in get_response
+    % (callback.__module__, view_name))
+ValueError: The view blog.views.article didn't return an HttpResponse object. It returned None instead.
+2016-11-03 19:01:09,786 [Thread-10:3588] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.js.map
+2016-11-03 19:05:29,766 [Thread-2:4276] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Temp\blog_project\blog\views.py", line 63, in article
+    return render(request, 'article', locals())
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 98, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: article
+2016-11-03 19:05:30,289 [Thread-3:11196] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.js.map
+2016-11-03 19:06:34,443 [Thread-2:10504] [django.request:256] [base:handle_uncaught_exception] [ERROR]- Internal Server Error: /article
+Traceback (most recent call last):
+  File "C:\Python27\lib\site-packages\django\core\handlers\base.py", line 132, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\Temp\blog_project\blog\views.py", line 63, in article
+    return render(request, 'article', locals())
+  File "C:\Python27\lib\site-packages\django\shortcuts.py", line 67, in render
+    template_name, context, request=request, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 98, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Python27\lib\site-packages\django\template\loader.py", line 46, in get_template
+    raise TemplateDoesNotExist(template_name)
+TemplateDoesNotExist: article
+2016-11-03 19:06:34,785 [Thread-3:4076] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.js.map
+2016-11-03 19:07:00,417 [Thread-3:9416] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/base.css
+2016-11-03 19:07:00,591 [Thread-4:8180] [django.request:170] [base:get_response] [WARNING]- Not Found: /css/index.css
+2016-11-03 19:07:00,614 [Thread-5:1420] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/jquery.min.js
+2016-11-03 19:07:00,625 [Thread-6:2432] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/sliders.js
+2016-11-03 19:07:00,627 [Thread-7:9816] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-11-03 19:07:00,999 [Thread-8:5016] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/default.jpg
+2016-11-03 19:07:01,405 [Thread-9:10516] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.js.map
+2016-11-03 19:10:03,407 [Thread-15:10716] [django.request:170] [base:get_response] [WARNING]- Not Found: /js/nav.js
+2016-11-03 19:10:03,434 [Thread-16:10184] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/default.jpg
+2016-11-03 19:10:04,206 [Thread-22:6616] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.js.map
+2016-11-03 19:10:51,704 [Thread-29:5916] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/default.jpg
+2016-11-03 19:10:51,779 [Thread-30:11088] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/default.jpg
+2016-11-03 19:10:51,878 [Thread-31:6712] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.js.map
+2016-11-03 19:13:35,960 [Thread-8:7824] [django.request:170] [base:get_response] [WARNING]- Not Found: /images/default.jpg
+2016-11-03 19:13:36,053 [Thread-9:6160] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.js.map
+2016-11-03 19:13:47,785 [Thread-11:10876] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.js.map
+2016-11-03 19:13:49,437 [Thread-12:4944] [django.request:170] [base:get_response] [WARNING]- Not Found: /index.js.map
