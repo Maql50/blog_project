@@ -1,4 +1,5 @@
 {% load staticfiles %}
+{% load custom_filters %}
 <!doctype html>
 <html>
 <head>
@@ -30,7 +31,7 @@
 <article>
   <div class="l_box f_l">
     <div class="postdate">
-      <div class="month"></div>
+      <div class="month">{{ article.date_publish | month_to_upper }}</div>
       <div class="date"></div>
     </div>
     <div class="title">
