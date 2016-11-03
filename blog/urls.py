@@ -1,0 +1,1 @@
+# coding:utf-8from django.conf.urls import include, urlfrom django.contrib import adminfrom blog.views import index, archive, articlefrom blog.upload import upload_imagefrom django.conf import settingsurlpatterns = [    url(r'^$',index, name='index'),    url(r'^archive$',archive, name='archive'),    url(r'^article$', article, name='article'),]

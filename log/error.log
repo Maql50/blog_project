@@ -9,3 +9,9 @@
 2016-10-30 21:59:38,183 [Thread-6:17580] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
 2016-10-30 21:59:53,230 [Thread-9:21864] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
 2016-10-31 23:16:26,176 [Thread-2:18672] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
+2016-11-03 12:06:52,750 [Thread-4:9600] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
+2016-11-03 12:20:09,780 [Thread-28:9392] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
+2016-11-03 12:20:16,670 [Thread-52:9280] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
+2016-11-03 12:23:18,755 [Thread-58:7444] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
+2016-11-03 12:23:50,390 [Thread-64:7404] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
+2016-11-03 14:37:34,433 [Thread-70:5768] [blog.views:17] [views:index] [ERROR]- integer division or modulo by zero
